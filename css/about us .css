@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+body{
+
+    background-color:  #0F1219;
+  
+}
+/* navbar style */
+.navbar-brand {
+    margin-right: auto; 
+   
+  }
+  .navbar-brand img{
+    height: 50px;
+    width: 80%;
+  }
+  .navbar-nav a{
+    color: #FFFFFF;
+  }
+  .navbar-nav button{
+  background-color:rgb(15, 147, 190);
+  border: none;
+  border-radius: 10px;
+   box-shadow: 0px 5px 10px 2px  rgb(121, 207, 236);
+  padding: 0px 30px;
+  height: 40px;
+  }
+   .nav-item  a{
+  text-decoration: none;
+  }
+  .nav-link{
+    color: #FFFFFF;
+  }
+  .nav-link:hover{
+    color: #FFFFFF;
+  }
+  .navbar-nav {
+    margin: 0 auto; 
+   color: #FFFFFF;
+    display: flex;
+  }
+  .navbar-nav .nav-link {
+    padding:0 30px; 
+  }
+ 
+  .ml-auto {
+    margin-left: auto; 
+    padding: 10px;
+  }
+  .ml-auto a{
+    font-family:  Cabin;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .mx-auto  a{
+ font-family:  Cabin;
+ font-size: 20px;
+ font-weight: 400;
+ align-items: center;
+ justify-content: center;
+
+  }
+/* main style */
+.sec1{
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+ 
+
+}
+.sec1 h1{
+    color: #FFFFFF;
+    font-family: Rammetto One;
+    font-size: 50px;
+    font-weight: 300px; 
+    margin-top: 180px;
+}
+.sec1 p{
+    background-color: #191E2C;
+     height: 50px;
+     padding-top: 15px;
+     text-align: center;
+     margin-left: 460px;
+     width: 18%;
+     border-radius: 7px;
+    font-family: 
+    Poppins;
+    margin-top: 20px;
+}
+.sec1 span{
+    color: gray;
+}
+.sec2{
+    color:white;
+    margin-top: 150px;
+
+}
+.sec2 img{
+   height: 470px;
+}
+.sec2 span{
+    font-family: 
+    Roboto Mono;
+    color: #4285F4;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sec2 h3{
+    font-family: Rammetto One;
+     font-size: 33x;
+     font-weight:  400;
+     line-height: 50px;
+     margin-left: 30px;
+}
+.sec2 p{
+    font-size:15px ;
+    font-family:  Roboto Mono;
+    font-weight:500;
+    line-height: 35px;
+    width: 100%;
+    margin-left: 30px;
+    justify-content: center;
+}
+.sec4{
+    text-align: center;
+    margin-top: 100px;
+}
+.sec4 img{
+    height: 80px;
+    padding: 10px;
+}
+.sec5{
+    margin-top:100px;
+    color: #FFFFFF;
+}
+.sec5 img{
+    
+    width: 96%;
+    
+}
+.sec5 h3{
+    font-family:  Poppins;
+    font-size: 45px;
+    font-weight:800 ;
+    line-height: 79.5px;
+
+}
+.sec5 span{
+    color: #4285F4;
+}
+.sec5 p{
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight:500;
+    line-height:30px ;
+    color: gray;
+    justify-content: center;
+}
+.sec6 h5{
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    font-family: 'SF Mono', sans-serif;
+
+}
+.img1{
+    width: 13.5%;
+}
+.sec6 span{
+    text-align: end;
+    margin-left: 430px;
+    color: #FFFFFF;
+
+}
+.sec6 img{
+    width: 85%;
+    
+}
+
+
+.img2  span{ 
+  
+    margin-left: 320px;
+    color: #FFFFFF;
+}
+.img3  span{ 
+  
+    margin-left: 240px;
+    color: #FFFFFF;
+}
+.img4  span{ 
+  
+    margin-left: 285px;
+    color: #FFFFFF;
+}
+.img5  span{ 
+  
+    margin-left: 390px;
+    color: #FFFFFF;
+}
+.img6  span{ 
+  
+    margin-left: 380px;
+    color: #FFFFFF;
+}
+.img7  span{ 
+  
+    margin-left: 395px;
+    color: #FFFFFF;
+}
+
+
+.sec7 {
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+.sec7 h1{
+    font-family:  Poppins;
+    font-size:45px ;
+    font-weight:800 ;
+    line-height:60px ;
+    margin-left: 20px;
+}
+.sec7 p{
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight:500;
+    line-height:28px ;
+    color: gray;
+    justify-content: center;
+    margin-left: 20px;
+}
+.sec7 span{
+    color:#4285F4
+}
+
+.sec8 h1{
+    font-family:Rammetto One ;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 124px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+.sec9 {
+    text-align: center;
+    background-image: url("../img/Vector\ \(1\).png");
+    justify-content: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+.sec9 img{
+    width: 100%;
+    height: 380px;
+    margin-top: 30px;
+}
+.sec9 p{
+    font-family:  Poppins;
+    font-size: 12px;
+    font-weight: 400;
+  
+}
+.sec9 h3{
+    font-family: Racing Sans One;
+    font-size: 25px;
+    font-weight: 400;
+  
+}
+.sec10{
+    margin-top: 100px;
+}
+.sec10 h2{
+    font-family: 
+    Rammetto One;
+    font-size: 50px;
+    font-weight: 400;
+    /* line-height: 106px; */
+    color: #FFFFFF;
+}
+.sec10 p{
+    font-family: 
+    Cabin;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 58px; */
+    color: #FFFFFF;
+}
+.sec10 span{
+    color: #4285F4;
+
+}.sec10 h1{
+    font-family: 
+    Poppins;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    color: #484747;
+   
+}
+
+
+/* ##### footer ##### */
+
+
+.para7{
+    margin-top: 50px;
+   
+  }
+  .para7 img{
+    width:  300px;
+  }
+  .para7 p {
+    color: gray;
+    margin-top: 30px;
+    font-family: cabin;
+  }
+  .para8{
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: cabin;
+  }
+  .para9{
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 50px;
+    font-family: cabin;
+  }
+  .para10{
+    color: white;
+    margin-top: 50px;
+  }
+  .para10 input{
+    width: 300px;
+    background-color:  black;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 20px;
+  }
+  .btn5{
+    background-color:rgb(15, 147, 190);
+    border: none;
+    padding: 0px 20px;
+    height: 35px;
+    border-radius: 25px;
+    width: 80px;
+    position: absolute;
+    right: 140px;
+     margin-top: 3px;
+  
+  }
+  
+  #place::placeholder{
+    font-size: 15px;
+   
+  }
+  .para10 p {
+    font-size: 10px;
+    margin-top: 8px;
+    color: gray;
+    font-family: cabin;
+  }
+  .para10 img{
+    height: 50px;
+    padding:10px;
+  }
+  .para11{
+    margin-top: 350px;
+    background-color:#191E2C;
+  
+  }
+  .para12{
+    margin-top: 30px;
+  }
+  .para13{
+    background-color: #131620;
+    color: #FFFFFF;
+    font-family: cabin;
+    font-size: 12px;
+  }
+  .para13 p {
+    margin-top: 20px;
+    font-family: cabin;
+  }
+
+.bar{
+  margin-top: 80px;
+    border: 3px dotted  rgba(66, 133, 244, 1);
+    text-align: center;
+}
+  .bar img{
+position: absolute;
+height: 40px ;
+margin-left: -80px;
+margin-top: -25px;
+  }
+  .bar h1{
+    font-family: remetto one;
+    font-size:72px;
+    font-weight: 750;
+    line-height: 82px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+    font-family: 'Race Sport Free', sans-serif;
+  }
+  .bar p{
+    font-family: 
+    Roboto Mono;
+    font-size: 14px ;
+    font-weight: 400;
+    line-height: 25px;
+   color: rgba(255, 255, 255, 1);
+  }
+  .bar:hover{
+    background-color: rgba(66, 133, 244, 1);
+    box-shadow: 0px 10px 10px 2px rgba(66, 133, 244, 1);
+  }
+  .card{
+    margin-top: 350px;
+     background-color:  #0F1219; ;
+     
+  }
+
+  .card1 img {
+    position: absolute;
+    z-index: 10;
+    margin-top: -250px;
+    width: 55%;
+    margin-left:350px ;
+    height: 350px;
+  }
+  .card2 img{
+    position: absolute;
+    margin-left: 500px;
+    /* margin-top: -1000px; */
+    width:  55%;
+    z-index: 20;
+    margin-top: 40px;
+    height: 400px;
+ 
+  }
+  
+  .card3 img{
+    position: relative;
+    z-index: 5;
+    width:  55%;
+  }
+  .card4 img{
+    position: absolute;
+    z-index: 4;
+    width:  45%;
+    margin-left: 300px;
+   margin-top: 40px;
+   height: 250px;
+  
+  }
+  .card5 img{
+    position: absolute;
+    z-index: 3;
+    width:  40%;
+    margin-top: -60px;
+    margin-left: 80px;
+  }
