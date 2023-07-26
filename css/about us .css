@@ -306,7 +306,8 @@ body{
  font-weight: 900;
   text-align: center; 
    line-height: 202.5px;
-    color: black;
+    
+    color:  #07090e;
    /* -webkit-text-stroke: 2px black;  */
 
    text-shadow: 
@@ -483,3 +484,27 @@ margin-top: -25px;
     margin-top: -60px;
     margin-left: 80px;
   }
+
+  /* hover effect on cards */
+  .card5 img:hover{
+ 
+    transform: scale(1.1);
+    z-index: 30;
+  }
+  .card4 img:hover{
+    transform: scale(1.1);
+    z-index: 30;
+  }
+  .card3 img:hover{
+    transform: scale(1.1);
+    z-index: 30;
+  }
+  .card2 img:hover{
+    transform: scale(1.1);
+    z-index: 30;
+  }
+  .card1 img:hover{
+    transform: scale(1.1);
+    z-index: 30;
+  }
+ 
