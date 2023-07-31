@@ -486,10 +486,11 @@ input[type="checkbox"] {
 .serv button {
     width: 400px;
     height: 50px;
-    background-color: rgba(66, 133, 244, 1);
+    
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px 2px rgba(66, 133, 244, 1);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     margin-bottom: 60px;
     margin-top: 20px;
 }
@@ -521,8 +522,8 @@ input[type="checkbox"] {
     width: 150px;
     height: 40px;
     border: none;
-    background-color: rgba(66, 133, 244, 1);
-    box-shadow: 0px 5px 5px 2px rgba(66, 133, 244, 1);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     margin-left: 270px;
     color: white;
     font-family: cabin;
@@ -567,9 +568,8 @@ input[type="checkbox"] {
     width: 150px;
     height: 40px;
     border: none;
-    background-color: rgba(66, 133, 244, 1);
-    box-shadow: 0px 5px 5px 2px rgba(66, 133, 244, 1);
-    ;
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     margin-left: 30px;
     color: white;
     font-family: cabin;
@@ -593,8 +593,8 @@ input[type="checkbox"] {
     width: 180px;
     height: 40px;
     border: none;
-    background-color: rgba(66, 133, 244, 1);
-    box-shadow: 0px 5px 5px 2px rgba(66, 133, 244, 1);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     margin-left: 30px;
     color: white;
     font-family: cabin;
@@ -620,10 +620,10 @@ button {
 }
 
 .view button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
     padding: 0px 30px;
     height: 40px;
 }
@@ -652,10 +652,11 @@ button {
 }
 
 .view-list button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+    
     padding: 0px 30px;
     height: 40px;
 }
@@ -682,10 +683,11 @@ button {
 }
 
 .view-list2 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+   
     padding: 0px 30px;
     height: 40px;
 }
@@ -711,10 +713,11 @@ button {
 }
 
 .view-list3 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+   
     padding: 0px 30px;
     height: 40px;
 }
@@ -738,10 +741,11 @@ button {
 }
 
 .view-list4 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+   
     padding: 0px 30px;
     height: 40px;
 }
@@ -765,10 +769,11 @@ button {
 }
 
 .view-list5 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+ 
     padding: 0px 30px;
     height: 40px;
 }
@@ -792,10 +797,11 @@ button {
 }
 
 .view-list6 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+  
     padding: 0px 30px;
     height: 40px;
 }
@@ -819,10 +825,11 @@ button {
 }
 
 .view-list7 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+   
     padding: 0px 30px;
     height: 40px;
 }
@@ -846,10 +853,11 @@ button {
 }
 
 .view-list8 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+   
     padding: 0px 30px;
     height: 40px;
     
@@ -873,10 +881,11 @@ button {
 }
 
 .view-list9 button {
-    background-color: rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgb(121, 207, 236);
+   
     padding: 0px 30px;
     height: 40px;
 }

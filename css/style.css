@@ -14,12 +14,11 @@ body{
 
 /*  navbar style  */
 .nav-item button{
-  background-color:rgb(15, 147, 190);
+  background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 10px 32px 0 rgba(1, 123, 253, 0.49);
+  padding: 0px 30px;
   border: none;
   border-radius: 10px;
-   box-shadow: 0px 5px 10px 2px  rgb(121, 207, 236);
-  padding: 0px 30px;
-   
 }
 
 .nav-link {
@@ -48,10 +47,10 @@ body{
   }
 
   .btn{
-    background-color:rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px 1px  rgb(79, 197, 236);
     padding: 0px 20px;
     height: 50px;
 
@@ -75,15 +74,16 @@ body{
   margin-top: 20px;
 }
 .btn2{
-    background-color:rgb(15, 147, 190);
+  background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px 1px  rgb(79, 197, 236);
+    
     padding: 0px 20px;
     height: 50px;
      color: #FFFFFF;
      width: 200px;
-     margin-top: 20px;
+     margin-top: 40px;
 
 }
 .btn2 a{
@@ -132,7 +132,7 @@ font-family: Cabin;
     font-family: Rammetto One;
 }
 .para2 p{
-    line-height: 50px;
+    line-height: 120px;
     font-size: 20px;
     margin-top: 30px;
     font-family: cabin;
@@ -166,7 +166,8 @@ font-family: Cabin;
   margin-top: 40px;
 }
 .btn4{
-  background-color:rgb(15, 147, 190);
+  background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
   border: none;
   padding: 0px 20px;
   height: 50px;
@@ -211,6 +212,7 @@ font-size: 12px;
 .para10{
   color: white;
   margin-top: 50px;
+  overflow-x: hidden;
 }
 .para10 input{
   width: 300px;
@@ -219,17 +221,18 @@ font-size: 12px;
   border-radius: 20px;
   height: 40px;
   padding-left: 20px;
-  z-index:5;
+  z-index:8;
+  
 
 }
 .btn5{
-  background-color:rgb(15, 147, 190);
+  background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
   border: none;
   padding: 0px 20px;
   height: 35px;
   border-radius: 25px;
   width: 80px;
-  right: 190px;
+  margin-left: -70px;
    margin-top: 3px;
    z-index: 10;
    position: absolute;
@@ -486,17 +489,15 @@ margin-top: 100px;
 }
 
 
-.toggle-btn:active {
-  background-color: blue;
-  
+.toggle-btn:active{
+  background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
    border-radius: 20px;
 
    
 }
 
 .toggle-btn:hover{
-  background-color: blue;
-  
+  background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
   border-radius: 20px;
 }
 .new-images .img5 {
@@ -551,10 +552,13 @@ margin-left: 40px;
 .para2 h1{
   font-size: 35px;
 }
+
 .btn3{
 
   margin-top: 20px;
 }
 .btn5{
   right: 20px;
+  margin-top: 40px;
+}
 }

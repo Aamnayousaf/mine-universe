@@ -23,10 +23,11 @@ body{
     color: #FFFFFF;
   }
   .navbar-nav button{
-  background-color:rgb(15, 147, 190);
+ 
   border: none;
   border-radius: 10px;
-   box-shadow: 0px 5px 10px 2px  rgb(121, 207, 236);
+  background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
+  box-shadow: 0 10px 32px 0 rgba(1, 123, 253, 0.49);
   padding: 0px 30px;
   height: 40px;
   }
@@ -359,17 +360,19 @@ body{
     border-radius: 20px;
     height: 40px;
     padding-left: 20px;
+    z-index: 8;
   }
   .btn5{
-    background-color:rgb(15, 147, 190);
+    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
     border: none;
     padding: 0px 20px;
     height: 35px;
     border-radius: 25px;
     width: 80px;
     position: absolute;
-    right: 140px;
+    margin-left: -70px;
      margin-top: 3px;
+     z-index: 10;
   
   }
   
