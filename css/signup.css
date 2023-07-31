@@ -54,6 +54,15 @@ margin-left: 40px;
   background-color: #191E2C;
   color: white;
 }
+.btn{
+  border: none;
+  border-radius: 10px;
+   box-shadow: 0px 5px 10px 2px  rgb(121, 207, 236);
+  padding: 10px 30px;
+  height: 50px;
+  width: 350px;
+  margin-top: 20px;
+}
 
 /* ##### footer ##### */
 
