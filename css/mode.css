@@ -9,7 +9,8 @@
 body {
 
     background-color:
-        rgba(15, 18, 25, 1)
+        rgba(15, 18, 25, 1);
+        overflow-x: hidden;
 }
 
 .wrapper {
@@ -319,9 +320,7 @@ color: gray;
 
 .main-content {
     position: relative;
-  
-    padding: 0 40px;
-
+    /* padding: 0px 40px; */
 }
 
 
@@ -362,7 +361,7 @@ padding: 0px 40px;
     
 }
 .dsh1 {
-    margin-left: 1030px;
+    margin-left: 1000px;
     margin-top: -400px;
     width: 230px;
     height: 500px;
@@ -505,7 +504,7 @@ padding: 0px 40px;
 .btn-dv1 {
 
     font-size: 13px;
-    margin-left: 90px;
+    margin-left: 40px;
     text-align: center;
 
     background-color: rgba(28, 34, 47, 1);

@@ -8,8 +8,10 @@
 
 body {
 
-    background-color:
-        rgba(15, 18, 25, 1)
+    background-color:rgba(15, 18, 25, 1);
+    overflow-x: hidden;
+    max-width:100%;
+  
 }
 
 .wrapper {
@@ -356,7 +358,9 @@ color: gray;
 .main-content {
     position: relative;
     /* transition: all 0.3s; */
-    padding: 0 40px;
+    padding: 40px  30px 30px 30px;
+    overflow-x: hidden;
+    width: 100%;
 
 
 }
