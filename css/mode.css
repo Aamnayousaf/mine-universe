@@ -585,6 +585,9 @@ img {
 /* #######n  main conntent style end ######## */
 /* #######n  navbar responsive code start ######## */
 
+
+
+
 @media only screen and (max-width:692px) {
 
   .top-navbar {
@@ -1183,3 +1186,4 @@ img {
 
 
   }
+  
