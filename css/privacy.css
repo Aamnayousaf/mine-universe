@@ -8,6 +8,7 @@
 body{
 
     background-color:  #0F1219;
+ 
   
 }
 
@@ -51,8 +52,8 @@ body{
      height: 50px;
      padding-top: 15px;
      text-align: center;
-     margin-left: 400px;
-     width: 20%;
+     margin-left: 470px;
+     width: 200px;
      border-radius: 7px;
      
     font-family: 
@@ -194,3 +195,221 @@ body{
   margin-top: 20px;
   font-family: cabin;
 }
+                                     /* ##### responsive code   ######### */
+@media only screen and (max-width: 412px){
+ .btn5{
+  margin-left: -90px;
+  margin-top: 5px;
+ }
+}
+@media  only screen and  (max-width: 280px){
+  .para7 img{
+   width: 200px;
+  }
+
+ }
+ @media  only screen and  (max-width: 382px){
+.btn5{
+  margin-left: -200px;
+}
+ }
+
+ @media only screen and (max-width: 414px){
+
+ .btn5{
+margin-left: -200px;
+ }
+ 
+    
+ }
+ @media only screen and (max-width: 971px){
+
+  .btn5{
+ margin-left: 220px;
+ margin-top: -37px;
+  }
+}
+@media only screen and (max-width: 912px){
+
+  .btn5{
+ margin-left: -80px;
+ margin-top: 2px;
+
+  }
+  .para10 input{
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 767px){
+
+
+  .btn5{
+    margin-left: -800px;
+    margin-top: 2px;
+   
+     }
+}
+
+@media only screen and (max-width: 821px){
+
+  .btn5{
+    margin-left: 170px;
+    margin-top: -38px;
+  }
+}
+@media only screen and (max-width: 412px){
+.btn5{
+  margin-left: -80px;
+margin-top: 5px;
+}
+  .para10 input  {
+    width: 360px;
+    }
+}
+@media only screen and (max-width: 383px){
+  .btn5{
+    margin-left: 275px;
+    margin-top: -37px;
+
+  }
+  
+  }
+  @media only screen and (max-width: 365px){
+    .btn5{
+      margin-left: -75px;
+     margin-top: 3px;
+    }
+    }
+    @media only screen and (max-width: 283px){
+      .btn5{
+        margin-left: 175px;
+        margin-top: -37px;
+   
+    
+      }
+    }
+    @media only screen and (max-width: 280px){
+  .para10 input{
+    width: 200px;
+  }
+  .btn5{
+    margin-left: -50px;
+ margin-top: 2px;
+  }
+  #place::placeholder{
+    font-size: 10px;
+  }
+    }
+
+    @media only screen and (max-width: 223px){
+      .btn5{
+        margin-left: 200px;
+      }
+      
+    }
+    
+    @media only screen and (max-width: 203px){
+      .btn5{
+        margin-left: 200px;
+      }
+      .para10 input{
+        width: 100px;
+      }
+    }
+
+
+      @media only screen and (max-width: 265px){
+        .btn5{
+          margin-left: -70px;  
+          margin-top: 5px;
+        }
+  .para10 input  {
+    width: 240px;
+    }
+    }
+    @media only screen and (max-width: 263px){
+      .btn5{
+        margin-left: 160px;  
+     margin-top: -37px;
+      }
+  }
+  @media only screen and (max-width: 233px){
+    .btn5{
+      margin-left: -80px;  
+      margin-top: 5px;
+
+    }
+    .para10 input{
+      width: 200px;
+    }
+}
+  
+
+/* ######### paragrph responsive ######### */
+
+
+@media only screen and (max-width: 990px){
+ .sec1 p{
+  width: 200px;
+  margin-left: 250px;
+
+ }
+ .sec1 h1{
+  font-size: 60px;
+ }
+  }
+  @media only screen and (max-width: 766px){
+    .sec1 p{
+     width: 200px;
+     /* overflow-x: hidden; */
+ margin-left: 150px;
+   
+   
+    }
+    .sec1 h1{
+     font-size: 40px;
+
+    }
+     }
+     @media only screen and (max-width: 436px){
+      .sec1 h1{
+
+     font-size: 20px;
+  
+      }
+     
+       }
+            @media only screen and (max-width: 440px){
+      .sec1 h1{
+     margin-left: 60px;    
+      }
+     
+       }
+
+       @media only screen and (max-width: 412px){
+        .sec1 h1{
+       margin-left: 100px;    
+        }
+       
+         }
+         @media only screen and (max-width: 414px){
+          .sec1 h1{
+         margin-left: 115px;    
+          }
+         
+           }
+         @media only screen and (max-width: 360px){
+          .sec1 h1{
+         margin-left: 150px;    
+          }
+         
+           }
+       @media only screen and (max-width: 280px){
+        .sec1 h1{
+         margin-left: 150px;
+        }
+        .sec1 p{
+          margin-left: 120px;
+         }
+       
+         }

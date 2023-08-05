@@ -10,7 +10,7 @@ body {
 
     background-color:
         rgba(15, 18, 25, 1);
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -22,14 +22,17 @@ body {
     height: 40px;
     margin-left: 30px;
 }
-.dashbaord5  {
+
+.dashbaord5 {
     margin-left: -10px;
     color: gray;
 }
-.sidebar-expanded .dashboard4{
+
+.sidebar-expanded .dashboard4 {
     width: 400px;
 }
-.sidebar-expanded .das{
+
+.sidebar-expanded .das {
     margin-left: -20px;
 }
 
@@ -42,44 +45,59 @@ body {
     bottom: 0;
     left: 0;
     z-index: 11;
-    width: 230px;    
+    width: 230px;
     padding: 10px;
-    box-shadow: 0 10px 30px -12px rgb(0 0 0 / 42%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+    background-color: rgb(9, 11, 17);
 }
 
 /* ####### side bar hide style ####### */
-.toggle-icon{
+.toggle-icon {
     color: white;
     margin-left: 250px;
     cursor: pointer;
     font-size: 30px;
-    position: sticky;
+    position: relative;
 }
-.sidebar-expanded .toggle-icon{
-    margin-left: 100px;
-}
-.sidebar-expanded hr{
-     width: 100%;
-    margin-left: 100px;
-}
-  
-.sidebar-expanded  .sidebar-header img{
-    width:100%;
-    height:  50px;
+#toggleButton{
+    background-color:
+    rgba(15, 18, 25, 1);
+    color: white;
+    margin-left: 250px;
+    cursor: pointer;
+    font-size: 30px;
+    position: fixed;
+    display: none;
+    border: none;
+    cursor: pointer;
 }
 
-  .sidebar-expanded .list-unstyled li span {
+.sidebar-expanded .toggle-icon {
+    margin-left: 100px;
+}
+
+.sidebar-expanded hr {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.sidebar-expanded .sidebar-header img {
+    width: 100%;
+    height: 50px;
+}
+
+.sidebar-expanded .list-unstyled li span {
     display: none;
-  }
+}
+
 .sidebar-expanded {
     width: 100px;
-  }
- 
-  .sidebar-expanded .main-content{
-    margin-left: 10px;
-  }
+}
 
-  /* ####### side bar hide style end ####### */
+.sidebar-expanded .main-content {
+    margin-left: 10px;
+}
+
+/* ####### side bar hide style end ####### */
 
 
 
@@ -127,7 +145,7 @@ body {
     margin-left: -30px;
 }
 
-.dashbaord3 img{
+.dashbaord3 img {
     height: 50px;
 }
 
@@ -135,7 +153,7 @@ body {
 .list-unstyled li {
     margin-top: 20px;
     margin-left: 20px;
-   
+
 }
 
 .list-unstyled li a {
@@ -153,95 +171,99 @@ body {
 
 /* ###### nevbar #######*/
 
-  .menu-container{
+.menu-container {
     display: flex;
-  }
-  nav {
+}
+
+nav {
     align-items: center;
     float: right;
     color: #fff;
     padding: 10px;
-  }
-  
-  /* Dropdown menu styles */
-  .dropdown {
+}
+
+/* Dropdown menu styles */
+.dropdown {
     position: relative;
     margin-right: 20px;
     margin-top: 15px;
-  }
-  
-  .dropdown-btn {
+}
+
+.dropdown-btn {
     background: none;
     border: none;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  .dropdown-menu {
+}
+
+.dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
     right: 0;
     background-color:
-    rgba(15, 18, 25, 1);
+        rgba(15, 18, 25, 1);
     border-radius: 5px;
     padding: 10px;
-  }
-  
-  .dropdown-menu li {
+}
+
+.dropdown-menu li {
     margin-bottom: 5px;
-  
-  }
-  .dropdown-menu li a{
+
+}
+
+.dropdown-menu li a {
     color: white;
-  }
-  .dropdown-menu li:last-child {
+}
+
+.dropdown-menu li:last-child {
     margin-bottom: 0;
-  }
-  
-  .dropdown-btn:focus + .dropdown-menu {
+}
+
+.dropdown-btn:focus+.dropdown-menu {
     display: block;
-  }
-  
-  /* Image and text container styles */
-  .nav-content {
+}
+
+/* Image and text container styles */
+.nav-content {
     display: flex;
     align-items: center;
     margin-right: 20px;
-  }
-  
-  .image-container img {
+}
+
+.image-container img {
     width: 50px;
     height: 60px;
     border-radius: 50%;
     margin-right: -30px;
-  }
-  
-  .text-container p {
+}
+
+.text-container p {
     margin: 0;
     color: #fff;
     font-size: 14px;
-  }
-  .text-container {
+}
+
+.text-container {
     display: flex;
-  }
-  
-  /* Styles for notifications */
-  .notifications {
+}
+
+/* Styles for notifications */
+.notifications {
     position: relative;
     margin-top: 20px;
-  }
-  
-  .notification-btn {
+}
+
+.notification-btn {
     background: none;
     border: none;
     color: #fff;
     cursor: pointer;
     position: relative;
-  }
-  
-  .badge {
+}
+
+.badge {
     background-color: red;
     color: #fff;
     font-size: 12px;
@@ -250,13 +272,13 @@ body {
     position: absolute;
     top: -5px;
     right: 10px;
-  }
-  
-  .notification-btn img {
+}
+
+.notification-btn img {
     width: 30px;
-  }
-  
-  .notification-dropdown {
+}
+
+.notification-dropdown {
     display: none;
     position: absolute;
     top: 30px;
@@ -267,60 +289,69 @@ body {
     border-radius: 5px;
     min-width: 200px;
     z-index: 12;
-  }
-  .notif-item{
+}
+
+.notif-item {
     display: flex;
     margin-left: -30px;
-    
-  }
 
-  .notif-item:hover{
+}
+
+.notif-item:hover {
     background-color: rgb(63, 56, 56);
     cursor: pointer;
-  margin-left: 0px;
-  }
-  .notif-item img{
+    margin-left: 0px;
+}
+
+.notif-item img {
     height: 40px;
     margin-left: 30px;
     margin-top: 20px;
-  }
-  .notif-item h4{
+}
+
+.notif-item h4 {
     font-size: 12px;
     margin-left: 10px;
-   
+
     color: gray;
-  }
-  .notif-item p{
+}
+
+.notif-item p {
     font-size: 12px;
     color: gray;
-  }
-  .text i{
-margin-left: 70px;
-color: gray;
-  }
-  .notification-btn:focus + .notification-dropdown {
+}
+
+.text i {
+    margin-left: 70px;
+    color: gray;
+}
+
+.notification-btn:focus+.notification-dropdown {
     display: block;
-  }
-  .clr {
+}
+
+.clr {
     background-color:
         rgba(25, 30, 44, 1);
     height: 70px;
     border-radius: 2px;
     margin-right: 20px;
-    width: 100%;
-  
-  }
-  
-  .clr1 {
+    width: 150px;
+    text-align: center;
+
+}
+
+.clr1 {
     background-color:
         rgba(25, 30, 44, 1);
     height: 70px;
-    width: 100%;
+    width: 150px;
     border-radius: 2px;
-    margin-right: 40px;
-  }
+    margin-right: 20px;
+    text-align: center;
+}
 
-  .top-navbar {
+.top-navbar {
     width: 100%;
     z-index: 9;
     position: relative;
@@ -334,7 +365,7 @@ color: gray;
 
 .main-content {
     position: relative;
-    padding: 40px  30px 30px 30px;
+    padding: 40px 30px 30px 30px;
     overflow-x: hidden;
     width: 100%;
     margin-left: 60px;
@@ -350,10 +381,15 @@ hr {
 
 .main {
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 150px;
     height: 300px;
 }
-
+.main2{
+    margin-left: 40px;
+}
+.react{
+    margin-left:150px;
+}
 .para {
     display: flex;
     margin-top: 30px;
@@ -379,7 +415,7 @@ hr {
     margin-top: -300px;
     margin-left: 700px;
     display: flex;
-   
+
 
 }
 
@@ -414,15 +450,16 @@ hr {
 }
 
 /* ###### Toggle button start ###### */
-.check{
+.check {
     display: flex;
 }
+
 input[type="checkbox"] {
     display: none;
-  }
-  
-  /* toggle style */
-  .toggle {
+}
+
+/* toggle style */
+.toggle {
     display: inline-block;
     position: relative;
     width: 60px;
@@ -431,8 +468,9 @@ input[type="checkbox"] {
     border-radius: 15px;
     cursor: pointer;
     margin-left: 200px;
-  }
-  .slider {
+}
+
+.slider {
     position: absolute;
     top: 2px;
     left: 2px;
@@ -441,36 +479,36 @@ input[type="checkbox"] {
     background-color: white;
     border-radius: 50%;
     transition: transform 0.2s ease;
-  }
+}
 
-  input[type="checkbox"]:checked + .slider {
+input[type="checkbox"]:checked+.slider {
     transform: translateX(30px);
-    background-color:white;
-  }
-  
-  .toggle:before {
-   
+    background-color: white;
+}
+
+.toggle:before {
+
     position: absolute;
     top: 4px;
     left: 8px;
     color: white;
     font-size: 14px;
-  }
-  
-  .toggle:after {
-  
+}
+
+.toggle:after {
+
     position: absolute;
     top: 4px;
     right: 8px;
     color: white;
     font-size: 14px;
-  }
-  
-  input[type="checkbox"]:checked + .slider:before {
+}
+
+input[type="checkbox"]:checked+.slider:before {
     content: "";
-    background-color:white
-  }
-  
+    background-color: white
+}
+
 
 
 /* ###### Toggle button  end ###### */
@@ -479,14 +517,15 @@ input[type="checkbox"] {
     justify-content: space-between;
     padding-right: 40px;
 }
-.coef h5{
-   margin-right: 40px;
+
+.coef h5 {
+    margin-right: 40px;
 }
 
 .serv button {
     width: 400px;
     height: 50px;
-    
+
     border: none;
     border-radius: 10px;
     background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
@@ -532,23 +571,27 @@ input[type="checkbox"] {
 .paraa {
     background-color: rgba(22, 27, 39, 1);
 }
+
 .react {
     color: #FFFFFF;
 }
-.react h2{
-    margin-left: 90px;
-    margin-top: -80px;
+
+.react h2 {
+    margin-left: 100px;
+    margin-top: -600px;
 }
+
 .rect {
-    /* margin-top: 250px; */
-    margin-left: 80px;
+    margin-top: -550px;
+    margin-left: 100px;
     display: flex;
+ 
 }
 
 .rect1 {
-    margin-top: 30px;
+    margin-top: -250px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .para4 {
@@ -569,7 +612,7 @@ input[type="checkbox"] {
     height: 40px;
     border: none;
     background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
-  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     margin-left: 30px;
     color: white;
     font-family: cabin;
@@ -601,22 +644,23 @@ input[type="checkbox"] {
     margin-top: 30px;
 
 }
-.para5 img{
+
+.para5 img {
     margin-top: 20px;
 }
 
 .view {
     display: flex;
-    justify-content: space-between;
-    float: right;
-  
+   
     margin-top: 50px;
     color: white;
+    margin-left: 650px;
+    margin-bottom: 20px;
 }
 
 .view p,
 button {
-    padding: 0px 50px;
+    padding: 0px 60px;
 }
 
 .view button {
@@ -656,7 +700,7 @@ button {
     box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-    
+
     padding: 0px 30px;
     height: 40px;
 }
@@ -666,7 +710,7 @@ button {
 .view-list2 {
     display: flex;
 
- margin-top: 20px;
+    
     color: white;
     margin-left: 700px;
     /* border-bottom:  1px solid gray; */
@@ -687,19 +731,22 @@ button {
     box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-   
+
     padding: 0px 30px;
     height: 40px;
 }
 
 
+/* list 3 */
+
+
 .view-list3 {
     display: flex;
-   /* margin-top: -400px; */
+
+    
     color: white;
     margin-left: 700px;
-    margin-top: 100px;
-    padding-top: 30px;
+    /* border-bottom:  1px solid gray; */
 }
 
 .view-list3 p,
@@ -714,17 +761,20 @@ button {
 
 .view-list3 button {
     background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
-  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-   
+
     padding: 0px 30px;
     height: 40px;
 }
 
+/* list 4 */
+
 .view-list4 {
     display: flex;
-    margin-top: -200px;
+
+    
     color: white;
     margin-left: 700px;
     /* border-bottom:  1px solid gray; */
@@ -742,20 +792,22 @@ button {
 
 .view-list4 button {
     background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
-  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-   
+
     padding: 0px 30px;
     height: 40px;
 }
 
+/* list 5 */
 .view-list5 {
     display: flex;
-     margin-top: -100px;
+
+    
     color: white;
     margin-left: 700px;
-   
+    /* border-bottom:  1px solid gray; */
 }
 
 .view-list5 p,
@@ -773,20 +825,24 @@ button {
     box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
- 
+
     padding: 0px 30px;
     height: 40px;
 }
 
+
+/* list 6 */
+
 .view-list6 {
     display: flex;
-     margin-top: -240px;
+
+    
     color: white;
     margin-left: 700px;
     /* border-bottom:  1px solid gray; */
 }
 
-.view-list6 p,
+.view-lis62 p,
 button {
     padding: 0px 20px;
 }
@@ -801,19 +857,23 @@ button {
     box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-  
+
     padding: 0px 30px;
     height: 40px;
 }
-
+/* list 7 */
 .view-list7 {
     display: flex;
-    margin-top: -150px;
+
+    
     color: white;
     margin-left: 700px;
+ 
     /* border-bottom:  1px solid gray; */
-} 
-
+}
+.list {
+    margin-top: 350px;
+}
 .view-list7 p,
 button {
     padding: 0px 20px;
@@ -826,17 +886,19 @@ button {
 
 .view-list7 button {
     background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
-  box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
+    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-   
+
     padding: 0px 30px;
     height: 40px;
 }
 
+/* list 8 */
 .view-list8 {
     display: flex;
-     margin-top: -60px;
+
+    
     color: white;
     margin-left: 700px;
     /* border-bottom:  1px solid gray; */
@@ -857,54 +919,568 @@ button {
     box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
     border: none;
     border-radius: 10px;
-   
-    padding: 0px 30px;
-    height: 40px;
-    
-}
 
-.view-list9 {
-    display: flex;
-
-    color: white;
-    margin-left: 700px;
-}
-
-.view-list9 p,
-button {
-    padding: 0px 20px;
-}
-
-.view-list9 img {
-    height: 50px;
-
-}
-
-.view-list9 button {
-    background: linear-gradient(to right, rgba(66, 133, 244, 1), rgba(12, 83, 199, 1));
-    box-shadow: 0 9px 32px 0 rgba(66, 133, 244, 0.6);
-    border: none;
-    border-radius: 10px;
-   
     padding: 0px 30px;
     height: 40px;
 }
 
-.list > div{
+
+
+.list>div {
     display: none;
 }
-.list >.show{
+
+.list>.show {
     display: flex;
 
 
 }
 
-.list > .show:nth-child(1) {
-    margin-top: -330px; 
-  }
-  .list > .show:nth-child(2) {
-    margin-top: 10px; 
-  }
-  .list > .show:nth-child(3) {
-    margin-top: 10px; 
-  }
+.list>.show:nth-child(1) {
+    margin-top: -330px;
+}
+
+.list>.show:nth-child(2) {
+    margin-top: 10px;
+}
+
+.list>.show:nth-child(3) {
+    margin-top: 10px;
+}
+
+
+
+
+/*=============== media queries==============*/
+
+
+/*=============== navbar responsive code==============*/
+
+
+
+/*=============== navbar responsive code end==============*/
+
+/* ==============main page responsive code start ===========*/
+
+
+@media only screen and (max-width:1286px){
+    .rect{
+        margin-left: 280px;
+       margin-top: 10px;
+    }
+    .full-list{
+     margin-left: -300px;
+     margin-top: 50px;
+     margin-bottom: 100px;
+   
+    }
+    .view {
+    
+        margin-left: 350px;
+        margin-top: 100px;
+    }
+    .react h2{
+        margin-top: -50px;
+        margin-left: 300px;
+    }
+    .rect1{
+        margin-top: 50px;
+        margin-left: 360px;
+    }
+    
+    .main{
+        width: 500px;
+        margin-left: 200px;
+    }   
+    .para3 button{
+        margin-left:160px;
+        margin-top: 20px;
+    } 
+
+}
+@media only screen and (max-width:1199px){
+    .main{
+        margin-left: 150px;
+        width: 450px;
+    }
+    .para1{
+        margin-left: 600px;
+    }
+    .serc{
+        margin-left: 600px;
+    }
+    .serv{
+        margin-left: 600px;
+    }
+    .serv button{
+        width: 250px;
+    }
+    .toggle{
+        margin-left: 110px;
+    }
+    .para3 button{
+        margin-left: 110px;
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width:1105px){
+.main{
+    margin-left: 200px;
+}
+}
+@media only screen and (max-width:992px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        margin-left: 20px;
+    }
+    .serc{
+        margin-left: 450px;
+    }
+    .para1{
+        margin-left: 450px;
+    }
+    .view{
+        margin-left: 150px;
+    }
+    .full-list{
+        margin-left: -500px;
+    }
+    .react h2{
+        margin-left: 100px;
+    }
+    .rect1{
+        margin-left: 250px;
+    }
+    .rect{
+        margin-left: 100px;
+    }
+.serv{
+    margin-left: 450px;
+}
+
+    .top-navbar {
+        margin-left: -50px;
+
+    }
+    .coef h5{
+        margin-right: 190px;
+    }
+
+    hr {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .clr {
+        width: 150px;
+        text-align: center;
+    }
+
+    .clr1 {
+        width: 150px;
+        text-align: center;
+    }
+    #toggleButton {
+        display: block;
+       
+    }
+    .toggle-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:918px){
+    .main{
+        width: 350px;
+        margin-left: 10pxpx;
+    }
+    .serc{
+        margin-left: 350px;
+    }
+    .serv{
+        margin-left: 350px;
+    }
+    .para1{
+        margin-left: 300px;
+    }
+    .rect1{
+        display: none;
+    }
+    .rect{
+        display: none;
+    }
+    .react h2{
+        display: none;
+    }
+
+}
+@media only screen and (max-width:990px){
+
+.rect{
+    width: 100%;
+}
+.view{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.full-list{
+    margin-left: -600px;
+}
+.para4{
+    margin-left: -20px;
+}
+.pic-img2{
+    margin-left: 50px;
+}
+.pic-img1{
+    margin-left: 50px;
+}
+.rect1{
+    margin-left: 120px;
+}
+
+.pic3{
+    margin-left: 30px;
+}
+.para5{
+    margin-left: 40px;
+}
+
+
+
+}
+
+@media only screen and (max-width:838px){
+    .full-list{
+        margin-left: -600px;
+    }
+    .view{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .rect{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .main{
+        margin-left: -80px;
+    }
+    .serc{
+        margin-left: 250px;
+    }
+    .serv{
+        margin-left: 250px;
+    }
+    .para1{
+        margin-left: 250px;
+    }
+    .view{
+        margin-left: -30px;
+    }
+    .full-list{
+        margin-left: -680px;
+    }
+}
+@media only screen and (max-width:679px){
+    .main{
+       margin-left: 70px;
+       width: 400px;
+    }
+    .serc{
+        margin-left: 100px;
+        /* margin-top: 500px; */
+    }
+    .serv{
+        margin-left: 100px;
+    }
+    .para1{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width:497px){
+
+
+.full-list{
+    margin-left: -700px;
+
+}
+.view{
+    margin-left: -50px;
+}
+
+
+}
+
+@media only screen and (max-width:475px){
+.main{
+    margin-left: 30px;
+}
+.full-list{
+    margin-left: -730px;
+}
+.view{
+    margin-left: -80px;
+}
+.serc{
+    margin-left: 50px;
+}
+.serv{
+    margin-left: 50px;
+}
+.para1{
+    margin-left: 10px;
+}
+
+}
+@media only screen and (max-width:429px){
+    .main{
+        width: 350px;
+    }
+    .serc{
+        margin-left: 20px;
+    }
+    .serv{
+        margin-left: 20px;
+    }
+.view p{
+    padding: 0px 20px;
+    margin-left: 30px;
+ 
+}
+.view button{
+    margin-left: 60px;
+    width: 80px;
+}
+.full-list p,button{
+    padding: 0px 10px;
+}
+.full-list button{
+    padding: 0px 10px;
+}
+}
+@media only screen and (max-width:375px){
+
+.main{
+    width: 300px;
+}
+.para3 button{
+    margin-left: -20px;
+}
+.serc{
+    margin-left: -20px;
+}
+.serv{
+    margin-left: -20px;
+}
+.para1{
+    margin-left: -30px;
+}
+
+
+.full-list p{
+    font-size: 10px;
+}
+.view p{
+    font-size: 12px;
+}
+.view button{
+    margin-left: 20px;
+}
+
+}
+@media only screen and (max-width:327px){
+    .main{
+        width: 250px;
+    }
+    .serc p{
+font-size: 12px;
+    }
+    .serc input{
+        width:250px;
+    }
+    .serc img{
+        width: 250px;
+    }
+    .serv p{
+        font-size: 12px;
+    }
+    .para1 h4{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:299px){
+.full-list p{
+padding:0px 10px;
+margin-left: -10px;
+}
+.full-list button{
+    padding:  0px 10px;
+    margin-left: -10px;
+}
+.full-list img{
+    margin-left: -10px;
+}
+.view p{
+    padding: 0px 10px;
+}
+
+
+}
+
+@media only screen and (max-width:275px){
+
+    .coef button{
+        width: 50px;
+      margin-left: 20px;
+    }
+
+
+}
+/* ######### #main code  responsive end  #######33 */
+
+@media only screen and (max-width:692px) {
+
+    .top-navbar {
+        margin-left: 70px;
+
+    }
+
+    .clr {
+        width: 100px;
+        text-align: center;
+    }
+
+    .clr1 {
+        width: 100px;
+        text-align: center;
+    }
+
+
+}
+
+
+@media only screen and (max-width:482px) {
+
+    .text-container {
+        padding: 0px;
+    }
+
+    .clr {
+        width: 80px;
+    }
+
+    .clr p {
+        font-size: 12px;
+        margin-top: 15px;
+
+    }
+
+    .clr .num {
+        font-size: 12px;
+        margin-top: 15px;
+
+    }
+
+    .clr1 {
+        width: 80px;
+    }
+
+    .clr1 p {
+        font-size: 12px;
+        margin-top: 15px;
+
+    }
+
+    .clr1 .num {
+        font-size: 12px;
+        margin-top: 15px;
+
+    }
+}
+
+
+@media only screen and (max-width:408px) {
+
+    .dropdown-btn {
+        font-size: 15px;
+        margin-right: 0px;
+    }
+
+    .image-container img {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width:376px) {
+
+    .dropdown-btn {
+        font-size: 12px;
+
+    }
+
+    .image-container img {
+        width: 30px;
+    }
+.clr{
+margin-right: 10px;
+width:70px;
+}
+    .clr p {
+        font-size: 10px;
+    }
+
+    .clr .num {
+        font-size: 10px;
+    }
+.clr1{
+    margin-right: 10px;
+    width: 70px;
+}
+    .clr1 p {
+        font-size: 10px;
+    }
+
+    .clr1 .num {
+        font-size: 10px;
+
+    }
+}
+@media only screen and (max-width:330px) {
+
+    .dropdown-btn {
+        font-size: 10px;
+
+    }
+
+  
+.clr{
+margin-right: 5px;
+width:60px;
+}
+    .clr p {
+        font-size: 8px;
+    }
+
+    .clr .num {
+        font-size: 8px;
+    }
+.clr1{
+    margin-right: 5px;
+    width: 60px;
+}
+    .clr1 p {
+        font-size: 8px;
+    }
+
+    .clr1 .num {
+        font-size: 8px;
+
+    }
+}

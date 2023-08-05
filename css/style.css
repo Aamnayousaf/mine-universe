@@ -28,7 +28,9 @@ body{
 .nav-link:hover{
   color: white;
 }
-
+.navbar-toggler-icon {
+  color: white;
+}
 /* main content style */
   .main{
    
@@ -561,4 +563,154 @@ margin-left: 40px;
   right: 20px;
   margin-top: 40px;
 }
+}
+
+ 
+                            /* ####### images reponsive code ######### */
+@media only screen and (max-width: 412px){
+
+.img1{
+  width: 400px;
+}
+
+.img2{
+  width: 400px;
+}
+.img3{
+  width: 400px;
+}
+.img4{
+  width: 400px;
+}
+.img5{
+  width: 400px;
+}
+.img6{
+  width: 400px;
+}
+.img7{
+  width: 400px;
+}
+.img8{
+  width: 400px;
+}
+.para14 h1{
+  font-size: 45px;
+}
+.btn1{
+  margin-left: 30px;
+  }
+.btn2{
+  margin-bottom: 40px;
+}
+  .login{
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  .navbar-toggler-icon {
+    color: white;
+    background-color:gray;
+  }
+}
+@media only screen and (max-width: 414px){
+
+  .para14 h1{
+    font-size: 40px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 540px){
+
+  .img1{
+    width: 400px;
+  }
+  
+  .img2{
+    width: 400px;
+ 
+  }
+  .img3{
+    width: 400px;
+  }
+  .img4{
+    width: 400px;
+ 
+  }
+  .img5{
+    width: 400px;
+ 
+  }
+  .img6{
+    width: 400px;
+ 
+  }
+  .img7{
+    width: 400px;
+ 
+  }
+  .img8{
+    width: 400px;
+ 
+  }
+}
+@media only screen and (max-width: 912px){
+
+  .img1{
+    width: 300px;
+  }
+  
+  .img2{
+    width: 300px;
+ 
+  }
+  .img3{
+    width: 300px;
+  }
+  .img4{
+    width: 300px;
+ 
+  }
+  .img5{
+    width: 300px;
+ 
+  }
+  .img6{
+    width: 300px;
+ 
+  }
+  .img7{
+    width: 300px;
+ 
+  }
+  .img8{
+    width: 300px;
+ 
+  }
+}
+
+@media only screen and (max-width: 320px){
+
+.btn5{
+  margin-top: -37px;
+   width: 50px; 
+   padding-right: 60px;
+ 
+}
+
+}
+@media only screen and (max-width: 280px){
+
+  .para10 input{
+    width: 100px;
+  }
+  #place::placeholder {
+    font-size: 15px;
+  }
+  .btn5{
+    margin-top: 6px;
+    margin-left: 100px;
+  }
 }
