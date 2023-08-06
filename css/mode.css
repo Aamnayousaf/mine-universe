@@ -394,7 +394,9 @@ nav {
   border-radius: 30px;
   background-color: rgb(28, 34, 47, 1);
 }
-
+.dshh{
+  margin-top: 20px;
+}
 .dsh1 p {
   font-family: poppins;
   font-size: 15px;
@@ -413,6 +415,7 @@ nav {
   font-size: 25px;
   font-weight: 700;
   text-align: center;
+
 
 }
 

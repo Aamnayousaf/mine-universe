@@ -190,92 +190,52 @@ margin-left: 40px;
   }
 }
 
+@media only screen and (max-width: 971px){
+.btn5{
+  margin-left: 220px;
+  margin-top: -37px;
+}
+  
+  }
+  
+
 
   @media only screen and (max-width: 990px){
-    .signup1 input{
+    /* .signup1 input{
       width: 300px;
     
+    } */
+    .signup1{
+      margin-left: 100px;
+      width: 500px;
+    }
+    .img1{
+      display: none;
     }
 
 }
-@media only screen and (max-width: 765px){
+
+@media only screen and (max-width: 542px){
+  .signup1 {
+  width:450px;
+  }
+
+}
+@media only screen and (max-width: 434px){
   .signup1 input{
-    width: 230px;
+      width:350px ;
+  
   
   }
-
-}
-@media only screen and (max-width: 516px){
-  .signup1 input{
-  width:150px;
-  }
-
-}
-@media only screen and (max-width: 474px){
-  .signup1 input{
-  width:180px ;
-  margin-left: 10px;
-  
-  }
-}
-
-
-@media only screen and (max-width: 384px){
-  .signup1 input{
-  width:150px ;
-  margin-left: 5px;
-  
-  }
-
-}
-@media only screen and (max-width: 310px){
-  .signup1 input{
-  width:130px ;
-  margin-left: 5px;
-  
-  }
-
-}
-
-@media only screen and (max-width: 266px){
-  .signup1 input{
-  width:110px ;
-  margin-left: 5px;
-    height: 100px;
-  }
-
-}
-@media only screen and (max-width: 766px){
-  .signup1 input{
-  width:250px ;
-  margin-left: 10px;
-   
-  }
-
-}
-@media only screen and (max-width: 412px){
-  .signup1 input{
-  width:180px ;
-  }
-.btn{
-  width:180px ;
-  font-size: 14px;
-}
-.img1  img{
-  height: 920px;
-}
 }
 
 @media only screen and (max-width: 768px){
-
-  .img1  img{
-    height: 920px;
-  }
+.para10 input{
+  width: 250px;
 }
-@media only screen and (max-width: 765px){
-
-  .btn{
- width: 200px;
+  .btn5{
+margin-left: 150px;
+margin-top: -37px;
   }
 }
 
@@ -294,31 +254,20 @@ margin-left: 40px;
     height: 920px;
   }
 }
-
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 380px){
 
   .signup1 input{
-   width: 200px;
+    width: 300px;
   }
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 340px){
+
   .signup1 input{
-  width:150px ;
-  }
-  .img1  img{
-    height: 920px;
+    width: 250px;
   }
 }
 
-@media only screen and (max-width: 375px){
 
-  .signup1 input{
-   width: 160px;
-  }
-  .btn{
-    width: 180px;
-  }
-}
 @media only screen and (max-width: 1024px){
 
  
@@ -326,27 +275,31 @@ margin-left: 40px;
     height: 920px;
   }
 }
+@media only screen and (max-width: 767px){
+  
+  .signup1{
+    margin-left: 30px;
+  
+  }
+  .btn5{
+    margin-left: -90px;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 496px){
 
+.signup1{
+  margin-left: -10px;
+}
+
+
+}
 @media only screen and (max-width: 280px){
 
- 
   .signup1 input{
- width: 130px;
-  }
-  .btn{
-    width: 130px;
-  }
-  .para10 input{
     width: 200px;
   }
   .para7 img{
-    width: 200px;
+    width: 150px;
   }
-}
-@media only screen and (max-width: 390px){
-
-  .signup1 input{
-   width: 180px;
-  }
-
 }

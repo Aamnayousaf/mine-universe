@@ -43,7 +43,6 @@ body{
 
   .para1 h1{
     color:#4285F4;
-   
     font-family:  Rammetto One;
     margin-top: 120px;
     font-size: 90px;
@@ -60,7 +59,7 @@ body{
     padding-left:100px;
     margin-top: 30px;
   }
-  ::placeholder{
+ #place ::placeholder{
     font-size: 25px;
   }
   .btn{
@@ -140,7 +139,7 @@ body{
   }
 
   #place::placeholder{
-    font-size: 15px;
+    font-size: 25px;
    
   }
   .para10 p {
@@ -170,4 +169,109 @@ body{
   .para13 p {
     margin-top: 20px;
     font-family: cabin;
+  }
+
+
+  /* ######    responsive code  ####### */
+
+
+
+ 
+    @media only screen and (max-width: 1199px){
+
+    .btn {
+right: 120px;
+    }
+  }
+
+  @media only screen and (max-width: 991px){
+
+    .btn {
+       right: -20px;
+       margin-top: -60px;
+    }
+  }
+  @media only screen and (max-width: 971px){
+    .btn5{
+      margin-left: 210px;
+      margin-top: -37px;
+    }
+  }
+  @media only screen and (max-width: 823px){
+    .para10 input{
+      width: 200px;
+    }
+    .btn5{
+      margin-left: -50px;
+      margin-top: 5px;
+    }
+    #place::placeholder{
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px){
+
+
+    .para1 input{
+      width: 500px;
+      margin-left:-20px;
+    }
+    #place::placeholder{
+      font-size: 15px;
+   
+    }
+    .btn{
+      margin-top: 50px;
+      right: 40px;
+    }
+  }
+  @media only screen and (max-width: 503px){
+    .para1 input{
+      width: 400px;
+      padding-left: 30px;
+    }
+  }
+  @media only screen and (max-width: 403px){
+   .btn{
+    margin-top: -60px;
+    width: 100px;
+  
+    overflow-x: hidden;
+     }
+    
+  }
+  @media only screen and (max-width: 380px){
+    .btn{
+      right: -10px;
+    }
+  }
+  @media only screen and (max-width: 355px){
+    .btn{
+      right: -25px;
+    }
+  }
+  @media only screen and (max-width: 340px){
+    .btn{
+      right: -45px;
+    }
+  }
+  @media only screen and (max-width: 320px){
+    .btn{
+      right: -65px;
+    }
+  }
+  @media only screen and (max-width: 300px){
+    .btn{
+      right: -90px;
+    }
+  }
+  @media only screen and (max-width: 304px){
+.para7 img{
+  width: 200px;
+}
+
+
+
+
   }

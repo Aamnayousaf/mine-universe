@@ -17,12 +17,12 @@
         href="https://fonts.googleapis.com/css2?family=Cabin&family=Rammetto+One&family=Roboto+Mono:wght@300&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>login</title>
 </head>
 
 <body>
-    <!--  nav bar section -->
+    <!-- navbar section -->
     <div class="container">
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
@@ -33,51 +33,57 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class=" buttons navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
                         <li class="nav-item ">
                             <a class="nav-link " iaria-current="page" href="login.html">Login </a>
                         </li>
-                        <li class="nav-item mx-4 ">
-                            <button><a class="nav-link" href="signup.html"> Sign up </a></button>
-                        </li>
 
+                        <div>
+                            <li class="nav-item">
+                                <button><a class="nav-link" href="signup.html"> Sign up </a></button>
+                            </li>
+                        </div>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <!-- main section -->
+    <!-- main content section -->
     <section>
         <div class="container  signup">
             <div class="row">
-                <div class="col-6 p-0 img1">
+                <div class="col-md-6 col-lg-6  col-sm-12 p-0 img1">
                     <img src="img/Rectangle 333 (2).png" class="img-fluid">
                 </div>
-                <div class="col-6  text-center signup1 p-0">
+                <div class="col-md-6 col-lg-6 clol-sm-12 text-center signup1 p-0">
                     <h3>Hello ! Welcome back.</h3>
                     <p>Log in with your data that you entered during Your registration.</p>
-
                     <form>
-                       
-                            <div class="mb-3">
-                                <input type="email" id="disabledTextInput" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="mb-3">
-                                <input type="Password" id="disabledTextInput" class="form-control"
-                                    placeholder="Password">
-                            </div>
+                        <div class="mb-3">
 
-                            <a href="dashboard.html" class="btn btn-primary">
-                                Create An account
+                            
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="Password" class="form-control" placeholder="Password">
+                        </div>
+            
 
-                            </a>
+
+                        <a href="dashboard.html" class="btn btn-primary">
+                            Create An account
+                           
+                        </a>
+                        
+                        <!-- <a href="dashboard.html" >
+                            <button type="submit" class="btn btn-primary"> Creat An
+                            Account  </button> </a> -->
                        
                     </form>
-
-                    <p>login with </p>
+                    <p>signup with </p>
                     <img src="img/Group 368.png">
                     <img src="img/Group 369.png">
                     <img src="img/Group 370.png">
