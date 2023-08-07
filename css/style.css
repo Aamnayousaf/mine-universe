@@ -782,6 +782,9 @@ body {
     width: 400px;
 
   }
+.main h3{
+  font-size: 30px;
+}
 }
 
 @media only screen and (max-width: 912px) {
@@ -825,6 +828,9 @@ body {
   }
 }
 
+
+
+
 @media only screen and (max-width: 320px) {
 
   .btn5 {
@@ -849,5 +855,10 @@ body {
   .btn5 {
     margin-top: 6px;
     margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 360px){
+  .main h3{
+    font-size: 30px;
   }
 }

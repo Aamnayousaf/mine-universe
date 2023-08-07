@@ -65,11 +65,13 @@ body {
     margin-left: 250px;
     cursor: pointer;
     font-size: 30px;
-position: fixed;
     display: none;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
+    /* margin-top: 40px;
+    position: relative; */
+
+   
 }
 
 .sidebar-expanded .toggle-icon {
@@ -1092,6 +1094,7 @@ button {
 
     .top-navbar {
         margin-left: -50px;
+        margin-top: -70px;
 
     }
     .coef h5{
@@ -1114,6 +1117,7 @@ button {
     }
     #toggleButton {
         display: block;
+      
        
     }
     .toggle-icon{
@@ -1155,6 +1159,15 @@ button {
                 }
                
                 }
+                @media only screen and (max-width:804px){
+
+#toggleButton{
+    margin-top: 130px;
+}
+
+
+                }
+
 
 @media only screen and (max-width:918px){
     .main{
@@ -1229,6 +1242,12 @@ button {
         margin-left: 100px;
     }
 }
+@media only screen and (max-width:768px){
+
+    .top-navbar{
+        margin-top: -170px;
+    }
+}
 
 @media only screen and (max-width:767px){
     .main{
@@ -1249,6 +1268,11 @@ button {
     .full-list{
         margin-left: -680px;
     }
+    .top-navbar{
+        margin-top: -170px;
+    }
+ 
+
 }
 @media only screen and (max-width:679px){
     .main{

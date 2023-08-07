@@ -82,9 +82,9 @@ body {
 /* main style */
 .sec1 {
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
   color: #FFFFFF;
-  max-width: 80%;
+
 
 }
 
@@ -94,6 +94,9 @@ body {
   font-size: 50px;
   font-weight: 300px;
   margin-top: 180px;
+  text-align: center;
+  margin-left:30px;
+  justify-content: center;
 }
 
 .sec1 p {
@@ -101,12 +104,14 @@ body {
   height: 50px;
   padding-top: 15px;
   text-align: center;
-  margin-left: 440px;
+  margin-left: 460px;
   width: 18%;
+  ;
   border-radius: 7px;
   font-family:
     Poppins;
   margin-top: 20px;
+  text-align: center;
 }
 
 .sec1 span {
